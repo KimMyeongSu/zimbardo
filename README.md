@@ -1,24 +1,6 @@
-# zimbardotime
+# 나는 왜 시간에 쫒기는 가 - 필립짐바르도 
 
-## Project setup
-```
-npm install
-```
+## 책에 소개되는 시간관을 웹페이지로 간단하게 검사하고 결과를 볼수있도록 제작
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
