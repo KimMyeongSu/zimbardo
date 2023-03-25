@@ -1,13 +1,12 @@
 <template>
-    <div>
-        <h1>Component Check List </h1>
-    </div>
+  <div>
+    <h1>Component Check List</h1>
+  </div>
 </template>
 
-<script>
+<script lang="js">
 export default {
-    
+
 }
 </script>
-<style>
-</style>
+<style></style>

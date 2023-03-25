@@ -1,10 +1,10 @@
 <template>
-  <div >
+  <div>
     <h1>index Vue</h1>
   </div>
 </template>
 
-<script>
+<script lang="js">
 export default {
   name: 'IndexMain',
   props: {
@@ -13,7 +13,4 @@ export default {
 }
 </script>
 
-
-<style scoped>
-
-</style>
+<style scoped></style>
