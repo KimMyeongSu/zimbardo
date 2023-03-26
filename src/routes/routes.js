@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 
 Vue.use(VueRouter);
 
+import CheckList from "../components/time_CheckList.vue";
 export default new VueRouter({
   mode: "history", //해쉬값 제거 방식
   routes: [
@@ -11,12 +12,9 @@ export default new VueRouter({
       redirect: "/home",
     },
     {
-      path: "/example1/:id",
-      component: { template: "<h1>Router 1</h1>" },
-    },
-    {
-      path: "/test",
-      component: { template: "<h1>Router 2</h1>" },
+      path: "/CheckList",
+      name: "CheckList",
+      component: CheckList,
     },
   ],
 });

@@ -6,6 +6,7 @@
 
 <script lang="js">
 export default {
+    name: 'CheckList',
 
 }
 </script>
