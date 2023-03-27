@@ -11,12 +11,8 @@ export default new VueRouter({
       redirect: "/home",
     },
     {
-      path: "/example1/:id",
-      component: { template: "<h1>Router 1</h1>" },
-    },
-    {
-      path: "/test",
-      component: { template: "<h1>Router 2</h1>" },
+      path: "/CheckList",
+      component: () => import("@/components/time_CheckList.vue"),
     },
   ],
 });
