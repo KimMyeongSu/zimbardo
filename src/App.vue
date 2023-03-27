@@ -1,17 +1,19 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <IndexMain></IndexMain>
+    <Main></Main>
+    <CheckList></CheckList>
   </div>
 </template>
 
 <script>
-import IndexMain from "./components/time_Main.vue";
-
+import Main from "./components/time_Main.vue";
+import CheckList from "./components/time_CheckList.vue";
 export default {
   name: "App",
   components: {
-    IndexMain,
+    Main,
+    CheckList,
   },
 };
 </script>

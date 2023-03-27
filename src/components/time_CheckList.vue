@@ -75,6 +75,9 @@ export default {
   created() {
     console.log(data);
   }
+
+
+
 }
 </script>
 <style></style>
