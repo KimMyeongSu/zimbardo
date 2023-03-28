@@ -1,6 +1,6 @@
 <template lang="">
   <div>
-    <h1>Component Check List</h1>
+    <h1>Result</h1>
   </div>
 </template>
 <script lang="js">
